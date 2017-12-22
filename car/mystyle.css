@@ -1,0 +1,126 @@
+.div2{
+	position:absolute;
+	top:700;
+	width:100%;
+	background-color:#af0505;
+	color:white;
+	padding-bottom:18;
+	padding-top:18;
+}
+
+.w3-content{
+	float:left;
+}
+
+.table1{
+	position:absolute;
+	height:500;
+	left:1020;
+	top:191;
+	background-color:white;
+	opacity:0.9;
+	width:25%;
+}
+
+.drpdwn{
+	width:85%;
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+	background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+	font-size: 20px;
+}
+
+.searchbtn{
+	font-family:Calibri;
+	font-weight:bold;
+	color:white;
+	background-color:#ed6415;
+	border-style:none;
+	padding: 10 91 10 91;
+}
+.searchbtn:hover{
+	cursor:pointer;
+	background-color:#ff6005;
+}
+
+.span1{
+	font-family:Calibri;
+	font-size:25;
+	font-weight:bold;
+	color:#ed6415;
+}
+
+input[type=text] {
+    width: 85%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('calendar.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 70px;
+}
+
+.image1{
+	position:relative;
+	top:-70px;
+	left:50px;
+}
+
+h1{
+	position:absolute;
+	top:-30;
+	left:500;
+	font-size:60;
+	font-family:Argon PERSONAL;
+	color:#474545;
+}
+
+h2{
+	position:absolute;
+	top:73;
+	left:503;
+	font-size:20;
+	font-family: Times New Roman;
+	color:#efe8e8;
+}
+
+.div1{
+	background-color:#ed3434;
+	height:120;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #af0505;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ea4f4f;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
